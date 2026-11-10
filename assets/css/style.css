@@ -1183,7 +1183,7 @@ a {
 }
 
 
-/* Align Cloud Data Migration description with other service cards */
-.services-grid > .service-card:nth-child(3) > p {
-    margin-top: 26px;
+/* Align descriptions across all service cards */
+.service-card h3 {
+    min-height: 56px;
 }
