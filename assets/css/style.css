@@ -1173,3 +1173,17 @@ a {
     }
 }
 
+
+/* Digital Transformation service tags — two-row layout */
+.service-card:nth-child(4) .service-tags {
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    gap: 8px;
+    justify-content: start;
+}
+
+
+/* Align Cloud Data Migration description with other service cards */
+.services-grid > .service-card:nth-child(3) > p {
+    margin-top: 26px;
+}
