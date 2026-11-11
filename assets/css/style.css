@@ -558,6 +558,7 @@ a {
   border: 1px solid var(--border);
   border-radius: 18px;
   align-items: start;
+  margin-bottom: 24px;
 }
 
 .case-study-content {
